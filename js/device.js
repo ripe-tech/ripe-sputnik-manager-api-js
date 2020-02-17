@@ -12,7 +12,7 @@ export const DeviceAPI = superclass =>
             return contents;
         }
 
-        async proxyCameraImage(id) {
+        async getDeviceImage(id) {
             const url = this.baseUrl + `devices/${id}/camera/image`;
             const contents = await this.get(url);
             return contents;

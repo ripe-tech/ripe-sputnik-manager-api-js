@@ -18,19 +18,13 @@ export const JobAPI = superclass =>
             return contents;
         }
 
-        async streamJob(id) {
-            const url = this.baseUrl + `jobs/${id}/stream`;
-            const contents = await this.get(url);
-            return contents;
-        }
-
         async cancelJob(id, payload) {
             const url = this.baseUrl + `jobs/${id}/cancel`;
             const contents = await this.put(url, { dataJ: payload });
             return contents;
         }
 
-        async getAssetsJob(id) {
+        async getJobAssets(id) {
             const url = this.baseUrl + `jobs/${id}/assets`;
             const contents = await this.get(url);
             return contents;
