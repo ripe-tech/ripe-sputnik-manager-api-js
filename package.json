@@ -30,10 +30,10 @@
         "js/**/*.js",
         "test/**/*.js"
     ],
-    "main": "dist/ripe-sputnik.cjs.js",
-    "unpkg": "dist/ripe-sputnik.umd.js",
-    "module": "dist/ripe-sputnik.esm.js",
-    "browser": "dist/ripe-sputnik.umd.js",
+    "main": "dist/ripe-sputnik-manager.cjs.js",
+    "unpkg": "dist/ripe-sputnik-manager.umd.js",
+    "module": "dist/ripe-sputnik-manager.esm.js",
+    "browser": "dist/ripe-sputnik-manager.umd.js",
     "scripts": {
         "build": "rollup -c",
         "example": "node examples/simple.js",

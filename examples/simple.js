@@ -1,8 +1,8 @@
-const ripeSputnikManagerApi = require("..");
+const ripeSputnikManager = require("..");
 
 async function run() {
-    await ripeSputnikManagerApi.API.load();
-    const api = new ripeSputnikManagerApi.API();
+    await ripeSputnikManager.API.load();
+    const api = new ripeSputnikManager.API();
     try {
         console.log(await api.listJobs());
         console.log(await api.listPresets());

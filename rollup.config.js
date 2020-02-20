@@ -43,7 +43,7 @@ export default [
         input: "js/index.js",
         external: ["node-fetch"],
         output: {
-            name: "ripeSputnikManagerApi",
+            name: "ripeSputnikManager",
             file: pkg.browser,
             banner: banner,
             format: "umd",
