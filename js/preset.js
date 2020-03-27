@@ -8,7 +8,7 @@ export const PresetAPI = superclass =>
 
         async createPreset(payload) {
             const url = this.baseUrl + "presets";
-            const contents = await this.put(url, { dataJ: payload });
+            const contents = await this.post(url, { dataJ: payload });
             return contents;
         }
 
