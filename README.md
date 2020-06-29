@@ -1,4 +1,4 @@
-# RIPE Sputnik Manager API JS
+<h1><a href="https://tech.platforme.com"><img src="res/logo.svg" alt="RIPE Sputnik Manager API JS" height="60" style="height: 60px;"></a></h1>
 
 Simples Javascript based API client for RIPE Sputnik Manager.
 
